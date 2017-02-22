@@ -1,11 +1,11 @@
-/*module.exports = {
-  server: {},
-  dashboard: {},
-  storage: {},
-  push: {}
-}*/
-
 module.exports = {
+	server: {},
+	dashboard: {},
+	storage: {},
+	push: {}
+}
+
+/*module.exports = {
 	server: {
 		databaseURI: 'mongodb://wetalkshitdb-parse:PdcYWcGDTxSpFcp1r05queO5jOc0TSP7181H0jkUh7lfAPUl9cEr8Nzgn6CXbMNfjpF2H7HrauJcTDp5AAGtpg==@wetalkshitdb-parse.documents.azure.com:10250/parse?ssl=true'
 		cloud: '/Users/swaritkagarwal/Documents/DEV/ionic-parse-server/cloud/main.js', 
@@ -27,4 +27,4 @@ module.exports = {
     },    
 	storage: {},
 	push: {}
-}
+}*/
