@@ -7,22 +7,22 @@
 
 module.exports = {
 	server: {
-		databaseURI: 'mongodb://ionicparseserverdb-parse:cy3GiYWZLzyQavSkVTGGYWppYKW5Gxcicv0JdGhDLfOi1KG4tCq9sIx83Bdx5nwAvh3o0bOA0SInTco2NYmgHQ==@ionicparseserverdb-parse.documents.azure.com:10250/parse?ssl=true', // Connection string for your MongoDB database
+		databaseURI: 'mongodb://wetalkshitdb-parse:PdcYWcGDTxSpFcp1r05queO5jOc0TSP7181H0jkUh7lfAPUl9cEr8Nzgn6CXbMNfjpF2H7HrauJcTDp5AAGtpg==@wetalkshitdb-parse.documents.azure.com:10250/parse?ssl=true'
 		cloud: '/Users/swaritkagarwal/Documents/DEV/ionic-parse-server/cloud/main.js', 
-		appId: '84f20369-f89a-42fa-a2a7-1ffa2933c4f8',
-		masterKey: '2f4b4404-89e3-4074-b13b-a1830af890d0',
+		appId: 'f08de79a-5169-4a28-ac53-6a6b14cd723c',
+		masterKey: 'a0c2d6b6-3bc1-4ca1-b4e0-fc866f42f604',
 		serverURL: 'http://localhost:1337/parse'
 	},
 	dashboard: { 
 		apps: [ { 
-			appId: '84f20369-f89a-42fa-a2a7-1ffa2933c4f8',
+			appId: 'f08de79a-5169-4a28-ac53-6a6b14cd723c',
           	serverURL: 'http://localhost:1337/parse',
-          	masterKey: '2f4b4404-89e3-4074-b13b-a1830af890d0',
+          	masterKey: 'a0c2d6b6-3bc1-4ca1-b4e0-fc866f42f604',
           	appName: 'ionicparseserver' 
         } ],
      	users: [ {
-     		user: '84f20369-f89a-42fa-a2a7-1ffa2933c4f8',
-     		pass: '2f4b4404-89e3-4074-b13b-a1830af890d0'
+     		user: 'f08de79a-5169-4a28-ac53-6a6b14cd723c',
+     		pass: 'a0c2d6b6-3bc1-4ca1-b4e0-fc866f42f604'
      	}]
     },    
 	storage: {},
