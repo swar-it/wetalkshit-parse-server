@@ -1,0 +1,28 @@
+    {
+    "name": "ionic-parse-server",
+    "version": "1.0.0",
+    "description": "Parse Server on Azure Managed Services",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/swar-it/wetalkshit-parse-server"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.14.1",
+        "moment": "^2.17.1",
+        "parse-dashboard": "^1.0.24",
+        "parse-server": "^2.3.3",
+        "parse-server-azure-config": "^1.0.0",
+        "serve-favicon": "^2.3.2",
+        "underscore": "^1.8.3"
+    },
+    "scripts": {
+        "start": "node index.js",
+        "postinstall": "git update-index --skip-worktree local.js & exit 0"
+    },
+    "engines": {
+        "node": "4.4",
+        "npm": "3.8.3"
+    }
+}
